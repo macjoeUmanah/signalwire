@@ -1,0 +1,65 @@
+{
+    "name": "enniel/ami",
+    "type": "library",
+    "description": "Provide asterisk ami to laravel",
+    "keywords": [
+        "Enniel",
+        "Ami",
+        "Asterisk"
+    ],
+    "homepage": "https://github.com/Enniel/Ami",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Enniel"
+        }
+    ],
+    "require": {
+        "php": ">=5.6.0",
+        "ext-mbstring": "*",
+        "illuminate/support": "~5.1",
+        "illuminate/console": "~5.1",
+        "illuminate/events": "~5.1",
+        "illuminate/contracts": "~5.1",
+        "react/dns": "~0.4.3",
+        "react/stream": "~0.4.6",
+        "react/event-loop": "~0.4.2",
+        "react/socket-client": "~0.4.6",
+        "clue/ami-react": "~0.3.1",
+        "jackkum/phppdu": "~1.2.10"
+    },
+    "require-dev": {
+        "friendsofphp/php-cs-fixer": "~2.0.0",
+        "phpunit/phpunit": "~4.5|~5.0",
+        "illuminate/config": "~5.1",
+        "illuminate/container": "~5.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "Enniel\\Ami\\": "src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Enniel\\Ami\\Tests\\": "tests"
+        }
+    },
+    "scripts": {
+        "test": [
+            "@phpunit",
+            "@phpcs"
+        ],
+        "phpunit": "php vendor/bin/phpunit",
+        "phpcs": "php vendor/bin/php-cs-fixer --diff --dry-run -v fix"
+    },
+    "bin": [
+        "bin/ami"
+    ],
+    "extra": {
+        "branch-alias": {
+            "dev-master": "2.0-dev"
+        }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
