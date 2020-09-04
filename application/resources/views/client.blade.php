@@ -178,9 +178,7 @@
 
 
 
-            @if(Auth::guard('client')->user()->api_access=='Yes')
-                <li @if(Request::path()== 'user/sms-api/info') class="active" @endif><a href={{url('user/sms-api/info')}}><span class="menu-text">{{language_data('SMS Api',Auth::guard('client')->user()->lan_id)}}</span> <span class="menu-thumb"><i class="fa fa-plug"></i></span></a></li>
-            @endif
+            
 
 
             {{--Support Ticket--}}

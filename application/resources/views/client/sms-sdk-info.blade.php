@@ -15,22 +15,7 @@
                         <div class="panel-heading">
                             <h3 class="panel-title">SMS API SDK</h3>
                         </div>
-                        <div class="panel-body">
-
-                                    The Ulitmate SMS PHP SDK makes it easy to interact with the Ultimate SMS API from
-                                    your PHP application. The most recent version of the Ultimate SMS PHP SDK can be
-                                    found on <a href="https://github.com/akasham67/ultimate-sms-api" target="_blank">Github</a>
-                                    The Ultimate SMS PHP SDK requires PHP version 5.6 or higher. If you are interested
-                                    in migrating to your php application, check out this <a
-                                            href="https://ultimatesms.coderpixel.com/ultimate-sms-api-documentation/"
-                                            target="_blank">Guide</a> .
-
-                                    <br>
-                                    <br>
-                                    <a href="https://github.com/akasham67/ultimate-sms-api/archive/master.zip"
-                                       class="btn btn-success btn-lg"><i class="fa fa-download"></i> Download SDK</a>
-
-                        </div>
+                      
                     </div>
                 </div>
 

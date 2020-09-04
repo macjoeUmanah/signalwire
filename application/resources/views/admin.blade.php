@@ -323,22 +323,8 @@
                 </ul>
             </li>
 
-            {{--SMS API--}}
-            <li class="has-sub @if(Request::path()== 'sms-api/info' OR Request::path()== 'sms-api/sdk') sub-open init-sub-open @endif">
-                <a href="#"><span class="menu-text">{{language_data('SMS Api')}}</span> <span class="arrow"></span><span
-                            class="menu-thumb"><i class="fa fa-plug"></i></span></a>
-                <ul class="sub">
-
-                    <li @if(Request::path()== 'sms-api/info') class="active" @endif><a
-                                href={{url('sms-api/info')}}><span class="menu-text">{{language_data('SMS Api')}}</span>
-                            <span class="menu-thumb"><i class="fa fa-cog"></i></span></a></li>
-
-                    <li @if(Request::path()== 'sms-api/sdk') class="active" @endif><a href={{url('sms-api/sdk')}}><span
-                                    class="menu-text">{{language_data('SMS Api')}} SDK</span> <span
-                                    class="menu-thumb"><i class="fa fa-download"></i></span></a></li>
-
-                </ul>
-            </li>
+           
+            
 
 
             {{--Support Ticket--}}
